@@ -7,8 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use('/user', user)
-app.use((error, req: Request, res: Response, next: NextFunction)=>
-res.send.message)
+app.use('/user', user);
+app.use((error, req: Request, res: Response, next: NextFunction) => res.send.message);
 
-export default app
+export default app;
