@@ -28,4 +28,19 @@ async function updateUserByIDDB(id:number, name:string, surname:string, email:st
         return []
     }
 }
-export { getAllUsersDB, getUserBYIDDB, updateUserByIDDB }
+
+async function deleteUserByIDDB(id:number): Promise<iUsers[]>{
+const client =await pool.connect();
+try{
+    await client.query('BEGIN')
+    const sql = 'delete from environment where id = $1 returning*';
+    const data = (await client.query(sql, [id])).rows
+    await client.query('COMMIT')
+    return data
+}catch(error:any){
+    await client.query('ROLLBACK')
+    console.log(`deleteUserByIDDB:${error.message}`);
+    return []
+}
+}
+export { getAllUsersDB, getUserBYIDDB, updateUserByIDDB, deleteUserByIDDB }

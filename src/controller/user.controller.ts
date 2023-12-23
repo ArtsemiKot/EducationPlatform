@@ -1,5 +1,5 @@
 import express, { Request, Response, NextFunction } from 'express';
-import { getAllUsers, getUserByID, updateUserByID } from '../service/user.service';
+import { getAllUsers, getUserByID, updateUserByID, deleteUserByID } from '../service/user.service';
 const route = express.Router();
 
 route.get('/', async (req: Request, res: Response): Promise<void> => {
@@ -32,5 +32,12 @@ route.put('/:id', async (req: Request, res: Response): Promise<void> => {
     }
 });
 
-
+route.delete(':/id', async (req:Request, res:Response,): Promise<void>=>{
+    try{
+const {id} = req.params;
+const data = await deleteUserByID(id);
+    }catch(error:any){
+        res.status(404).send(error.message)
+    }
+})
 export default route
