@@ -20,14 +20,14 @@ const ExceptionType: iExceptionType = {
   DB_PUT_USERS_NOT_UPDATE: 'user does not update',
   DB_DELETE_USER_NOT_DELETE: 'user does not delete',
 
-  ID_NOT_A_NUMBER: 'id is not a number',
-  ID_NEGATIVE: 'id should not be negative',
-
   USER_TITLE_EMPTY: 'no data',
   USER_NAME_INVALID: 'incorrect name',
   USER_SURNAME_INVALID: 'incorrect surname',
-  USER_PASSWORD_LENGTH_VALID: 'the length must be more than 8 characters',
-  USER_PASSWORD_VALID: 'email entered incorrectly',
+  USER_PASSWORD_LENGTH_VALID: 'password should be > 8',
+  USER_PASSWORD_VALID: 'incorrect email',
+
+  ID_NOT_A_NUMBER: 'id is not a number',
+  ID_NEGATIVE: 'id should not be negative',
 };
 
 export default ExceptionType;
