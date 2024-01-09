@@ -1,5 +1,6 @@
 import { createCourse, deleteCourse, getAllCourse, getCourseById, updateCourse } from "../../service/courses.service";
 import * as repository from "../../repository/courses.repository"
+
 describe('getAllCourse', () => {
     test('test 1', async () => {
         const repFunction = jest.spyOn(repository, 'getAllCourseDB')
