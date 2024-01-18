@@ -1,0 +1,36 @@
+.wrapper {
+    width: 1220px;
+    margin: 4% auto 0;
+}
+
+.wrapper .previewContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .previewContent .previewInfo .textPlatform {
+    color: var(--Primaty-Cyan-Dark, #2B788B);
+    font: 700 16px Montserrat;
+    margin-bottom: 24px;
+}
+
+.wrapper .previewContent .previewInfo h1 {
+    width: 550px;
+    color: var(--Primaty-Black, #000);
+    font: 400 56px Dela Gothic One;
+    margin-bottom: 24px;
+}
+
+.wrapper .previewContent .previewInfo .textAdditional {
+    width: 397px;
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 700 16px Montserrat;
+}
+
+.wrapper .previewContent .previewImg {
+    background-image: url(./assets/boy.png);
+    width: 650px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

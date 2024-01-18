@@ -3,7 +3,7 @@ import app from '../../app';
 let id;
 
 test('post', async () => {
-  const res = await request(app).post('/course').send({ course: 'ts' });
+  const res = await request(app).post('/course').send({ course: 'TS' });
 
   id = res.body[0].id;
   expect(res.statusCode).toBe(200);
@@ -28,7 +28,7 @@ test('getById', async () => {
 });
 
 test('put', async () => {
-  const res = await request(app).put(`/course/${id}`).send({ course: 'ts' });
+  const res = await request(app).put(`/course/${id}`).send({course: 'TS'});
 
   expect(res.statusCode).toBe(200);
   expect(res.body.length).toBe(1);
