@@ -34,3 +34,52 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.wrapper .learnContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .learnContent .learnImg{
+    background-image: url(./assets/meditation.png);
+    width: 580px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper .learnContent .learnInfo{
+
+}
+
+.wrapper .learnContent .learnInfo h1{
+    color: var(--Primaty-Black, #000);
+    font: 400 48px "Dela Gothic One";
+    width: 480px;
+    margin-bottom: 30px;
+}
+
+.wrapper .learnContent .learnInfo .textLearning{
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 18px Montserrat;
+    width: 480px;
+}
+
+.wrapper .knowledgeContent .knowledgeInfo .textknowledge{
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 18px Montserrat;
+    width: 480px;
+}
+
+.wrapper .knowledgeContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .knowledgeContent .knowledgeImg{
+    background-image: url(./assets/girlbook.png);
+    width: 580px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
