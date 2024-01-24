@@ -11,9 +11,9 @@ function Preview() {
                     <div className={style.btn}>About platform</div>
                     <div className={style.statistic}>
                         <div className={style.ImgLightning}></div>
-                        <p className={style.studentCount}>600 <span>+</span></p>
+                        <p className={style.studentCount}>600<span>+</span></p>
                     </div>
-                    <p className={style.textStudents}></p>
+                    <p className={style.textStudents}>Students</p>
                 </div>
                 <div className={style.previewImg}>
                 </div>
@@ -24,7 +24,7 @@ function Preview() {
                 <div className={style.learnInfo}>
                     <h1>Learn a language in a playful way</h1>
                     <p className={style.textLearning}>Make learning programming languages more fun with mini-games</p>
-                    <div className={style.statistic}>
+                    <div className={style.icon}>
                         <div className={style.ImgSneakers}></div>
                         <div className={style.ImgSound}></div>
                     </div>
@@ -35,7 +35,7 @@ function Preview() {
                 <div className={style.knowledgeInfo}>
                     <h1>Increase your knowledge</h1>
                     <p className={style.textknowledge}>Traditional and new effective approaches to learning languages</p>
-                    <div className={style.btn_textbook}></div>
+                    <div className={style.btn_textbook}>Textbook →</div>
                 </div>
                 <div className={style.knowledgeImg}></div>
             </div>

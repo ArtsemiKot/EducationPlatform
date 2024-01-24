@@ -25,6 +25,50 @@
     width: 397px;
     color: var(--Primaty-Grey-Dark, #757575);
     font: 700 16px Montserrat;
+    margin-bottom: 32px;
+}
+
+.wrapper .previewContent .previewInfo .btn {
+    border-radius: 100px;
+    background: var(--Primaty-Cyan-Light, #C3DCE3);
+    padding: 14px 22px;
+    color: #2B788B;
+    font: 700 16px Montserrat;
+    width: 175px;
+    height: 44px;
+    margin-bottom: 49px;
+}
+
+.wrapper .previewContent .previewInfo .statistic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 165px;
+    height: 60px;
+}
+
+.wrapper .previewContent .previewInfo .statistic .ImgLightning {
+    background-image: url(./assets/lightning.png);
+    width: 24px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper .previewContent .previewInfo .statistic .studentCount {
+    color: #000;
+    font: 400 40px Dela Gothic One;
+}
+
+.wrapper .previewContent .previewInfo .statistic .studentCount span {
+    color: #2B788B;
+    font: 400 40px Dela Gothic One;
+}
+
+.wrapper .previewContent .previewInfo .textStudents {
+    color: #585858;
+    font: 600 16px Montserrat;
+    margin-left: 45px;
 }
 
 .wrapper .previewContent .previewImg {
@@ -33,14 +77,16 @@
     height: 550px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-right: 10px;
+    margin-bottom: 124px;
 }
 
-.wrapper .learnContent{
+.wrapper .learnContent {
     display: flex;
     justify-content: space-between;
 }
 
-.wrapper .learnContent .learnImg{
+.wrapper .learnContent .learnImg {
     background-image: url(./assets/meditation.png);
     width: 580px;
     height: 445px;
@@ -48,35 +94,51 @@
     background-size: contain;
 }
 
-.wrapper .learnContent .learnInfo{
+.wrapper .learnContent .learnInfo {}
 
-}
-
-.wrapper .learnContent .learnInfo h1{
+.wrapper .learnContent .learnInfo h1 {
     color: var(--Primaty-Black, #000);
-    font: 400 48px "Dela Gothic One";
+    font: 400 48px Dela Gothic One;
     width: 480px;
     margin-bottom: 30px;
 }
 
-.wrapper .learnContent .learnInfo .textLearning{
+.wrapper .learnContent .learnInfo .textLearning {
     color: var(--Primaty-Grey-Dark, #757575);
     font: 600 18px Montserrat;
     width: 480px;
 }
 
-.wrapper .knowledgeContent .knowledgeInfo .textknowledge{
-    color: var(--Primaty-Grey-Dark, #757575);
-    font: 600 18px Montserrat;
-    width: 480px;
-}
-
-.wrapper .knowledgeContent{
+.wrapper .knowledgeContent {
     display: flex;
     justify-content: space-between;
 }
 
-.wrapper .knowledgeContent .knowledgeImg{
+.wrapper .knowledgeContent .knowledgeInfo h1 {
+    color: var(--Primaty-Black, #000);
+    font: 400 48px Dela Gothic One;
+    width: 475px;
+    margin-bottom: 30px;
+}
+
+.wrapper .knowledgeContent .knowledgeInfo .textknowledge {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 18px Montserrat;
+    width: 397px;
+    margin-bottom: 34px;
+}
+
+.wrapper .knowledgeContent .knowledgeInfo .btn_textbook {
+    border-radius: 100px;
+    background: var(--Primaty-Cyan-Light, #C3DCE3);
+    padding: 14px 22px;
+    width: 145px;
+    height: 44px;
+    color: #2B788B;
+    font: 700 16px Montserrat;
+}
+
+.wrapper .knowledgeContent .knowledgeImg {
     background-image: url(./assets/girlbook.png);
     width: 580px;
     height: 445px;
