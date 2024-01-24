@@ -92,6 +92,7 @@
     height: 445px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 77px;
 }
 
 .wrapper .learnContent .learnInfo {}
@@ -107,8 +108,27 @@
     color: var(--Primaty-Grey-Dark, #757575);
     font: 600 18px Montserrat;
     width: 480px;
+    margin-bottom: 30px;
 }
 
+.wrapper .learnContent .learnInfo .icon{
+    display: flex;
+}
+.wrapper .learnContent .learnInfo .icon .ImgSneakers{
+    background-image: url(./assets/sneakers.png);
+    width: 131px;
+    height: 145px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 21px;
+}
+.wrapper .learnContent .learnInfo .icon .ImgSound{
+    background-image: url(./assets/ruper.png);
+    width: 172px;
+    height: 145px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .wrapper .knowledgeContent {
     display: flex;
     justify-content: space-between;
