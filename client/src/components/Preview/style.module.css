@@ -1,12 +1,15 @@
 .wrapper {
-    width: 1220px;
     margin: 4% auto 0;
+    width: 1220px;
 }
 
 .wrapper .previewContent {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    height: 740px;
 }
+
+.wrapper .previewContent .previewInfo {}
 
 .wrapper .previewContent .previewInfo .textPlatform {
     color: var(--Primaty-Cyan-Dark, #2B788B);
@@ -73,17 +76,17 @@
 
 .wrapper .previewContent .previewImg {
     background-image: url(./assets/boy.png);
-    width: 650px;
-    height: 550px;
+    width: 933px;
+    height: 601px;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin-right: 10px;
-    margin-bottom: 124px;
+    background-size: cover;
 }
 
 .wrapper .learnContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 580px;
 }
 
 .wrapper .learnContent .learnImg {
@@ -92,29 +95,31 @@
     height: 445px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 77px;
+    margin-bottom: 100px;
 }
 
-.wrapper .learnContent .learnInfo {}
+.wrapper .learnContent .learnInfo {
+    width: 484px;
+    height: 500px;
+}
 
 .wrapper .learnContent .learnInfo h1 {
     color: var(--Primaty-Black, #000);
     font: 400 48px Dela Gothic One;
-    width: 480px;
     margin-bottom: 30px;
 }
 
 .wrapper .learnContent .learnInfo .textLearning {
     color: var(--Primaty-Grey-Dark, #757575);
     font: 600 18px Montserrat;
-    width: 480px;
     margin-bottom: 30px;
 }
 
-.wrapper .learnContent .learnInfo .icon{
+.wrapper .learnContent .learnInfo .icon {
     display: flex;
 }
-.wrapper .learnContent .learnInfo .icon .ImgSneakers{
+
+.wrapper .learnContent .learnInfo .icon .ImgSneakers {
     background-image: url(./assets/sneakers.png);
     width: 131px;
     height: 145px;
@@ -122,16 +127,19 @@
     background-size: contain;
     margin-right: 21px;
 }
-.wrapper .learnContent .learnInfo .icon .ImgSound{
+
+.wrapper .learnContent .learnInfo .icon .ImgSound {
     background-image: url(./assets/ruper.png);
     width: 172px;
     height: 145px;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .wrapper .knowledgeContent {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .wrapper .knowledgeContent .knowledgeInfo h1 {
@@ -164,4 +172,46 @@
     height: 445px;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 100px;
+}
+
+.wrapper .progressContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .progressContent .progressImg {
+    background-image: url(./assets/gyus.png);
+    width: 680px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 100px;
+}
+
+.wrapper .progressContent .progressInfo {
+    width: 475px;
+}
+
+.wrapper .progressContent .progressInfo h1 {
+    font: 400 48px Dela Gothic One;
+    color: var(--Primaty-Black, #000);
+    margin-bottom: 30px;
+}
+
+.wrapper .progressContent .progressInfo .textprogress {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 18px Montserrat;
+    margin-bottom: 34px;
+}
+
+.wrapper .progressContent .progressInfo .btn_statistics {
+    border-radius: 100px;
+    background: var(--Primaty-Cyan-Light, #C3DCE3);
+    padding: 14px 22px;
+    width: 145px;
+    height: 44px;
+    color: #2B788B;
+    font: 700 16px Montserrat;
 }

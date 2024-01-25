@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,25 +6,27 @@
     margin: auto;
 
 }
-.wrapper h1{
+
+.wrapper h1 {
     font: 400 16px 'Dela Gothic One';
     color: #000;
 }
 
-.wrapper .btns{
+.wrapper .btns {
     display: flex;
     align-items: center;
 }
-.wrapper .btns .login{
+
+.wrapper .btns .login {
     font: 700 16px 'Montserrat';
     color: #000;
     margin-right: 25px;
 }
 
-.wrapper .btns .reg{
+.wrapper .btns .reg {
     font: 700 16px 'Montserrat';
     color: #FFF;
     border-radius: 14.188px;
-background: #2B788B;
-padding: 13px 21px;
+    background: #2B788B;
+    padding: 13px 21px;
 }

@@ -1,0 +1,80 @@
+.wrapper {
+    width: 1220px;
+    margin: auto;
+}
+
+.wrapper .navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .navigation .icon_navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.wrapper .navigation .students_name {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 14px Montserrat;
+}
+
+p:not(:last-child) {
+    margin-right: 30px;
+}
+
+hr {
+    stroke-width: 1.205px;
+    stroke: var(--Primaty-Grey-Medium, #E0E0E0);
+    margin-bottom: 20px;
+}
+
+.wrapper .href {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .href .icon_href {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .href .icon_href .img_face {
+    background-image: url(./assets/face.png);
+    width: 30px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 30px;
+}
+
+.wrapper .href .icon_href .img_litters {
+    background-image: url(./assets/letters.png);
+    width: 30px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 30px;
+}
+
+.wrapper .href .icon_href .img_youtube {
+    background-image: url(./assets/iconYouTube.png);
+    width: 30px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper .href .builHSC p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 600 12px Montserrat;
+}
+.wrapper .href .builHSC p span{
+    text-decoration-line: underline;
+}

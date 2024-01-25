@@ -39,6 +39,15 @@ function Preview() {
                 </div>
                 <div className={style.knowledgeImg}></div>
             </div>
+
+            <div className={style.progressContent}>
+                <div className={style.progressImg}></div>
+                <div className={style.progressInfo}>
+                    <h1>Watch your progress every day</h1>
+                    <p className={style.textprogress}>Save statistics on your achievements and mistakes</p>
+                    <div className={style.btn_statistics}>Statistics →</div>
+                </div>
+            </div>
         </div>
 
     )
