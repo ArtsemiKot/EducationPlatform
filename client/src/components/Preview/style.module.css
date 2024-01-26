@@ -7,9 +7,8 @@
     display: flex;
     align-items: center;
     height: 740px;
+    position: relative;
 }
-
-.wrapper .previewContent .previewInfo {}
 
 .wrapper .previewContent .previewInfo .textPlatform {
     color: var(--Primaty-Cyan-Dark, #2B788B);
@@ -80,6 +79,8 @@
     height: 601px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    margin-left: 550px;
 }
 
 .wrapper .learnContent {
@@ -87,6 +88,7 @@
     justify-content: space-around;
     align-items: center;
     height: 580px;
+    margin-bottom: 100px;
 }
 
 .wrapper .learnContent .learnImg {
@@ -95,7 +97,6 @@
     height: 445px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 100px;
 }
 
 .wrapper .learnContent .learnInfo {
@@ -103,7 +104,7 @@
     height: 500px;
 }
 
-.wrapper .learnContent .learnInfo h1 {
+.wrapper .learnContent .learnInfo h2 {
     color: var(--Primaty-Black, #000);
     font: 400 48px Dela Gothic One;
     margin-bottom: 30px;
@@ -138,14 +139,23 @@
 
 .wrapper .knowledgeContent {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
+    width: 1220px;
+    margin-bottom: 100px;
 }
 
-.wrapper .knowledgeContent .knowledgeInfo h1 {
+.wrapper .knowledgeContent .knowledgeInfo {
+    width: 480px;
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper .knowledgeContent .knowledgeInfo h2 {
     color: var(--Primaty-Black, #000);
     font: 400 48px Dela Gothic One;
-    width: 475px;
     margin-bottom: 30px;
 }
 
@@ -153,7 +163,7 @@
     color: var(--Primaty-Grey-Dark, #757575);
     font: 600 18px Montserrat;
     width: 397px;
-    margin-bottom: 34px;
+    margin-bottom: 30px;
 }
 
 .wrapper .knowledgeContent .knowledgeInfo .btn_textbook {
@@ -172,13 +182,14 @@
     height: 445px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 100px;
 }
 
 .wrapper .progressContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1220px;
+    margin-bottom: 100px;
 }
 
 .wrapper .progressContent .progressImg {
@@ -187,14 +198,14 @@
     height: 410px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-bottom: 100px;
 }
 
 .wrapper .progressContent .progressInfo {
     width: 475px;
+    height: 300px;
 }
 
-.wrapper .progressContent .progressInfo h1 {
+.wrapper .progressContent .progressInfo h2 {
     font: 400 48px Dela Gothic One;
     color: var(--Primaty-Black, #000);
     margin-bottom: 30px;
