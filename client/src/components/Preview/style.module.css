@@ -1,6 +1,5 @@
 .wrapper {
-    margin: 4% auto 0;
-    width: 1220px;
+    margin: 4% auto;
 }
 
 .wrapper .previewContent {
@@ -8,6 +7,9 @@
     align-items: center;
     height: 740px;
     position: relative;
+    margin: auto;
+    width: 1220px;
+
 }
 
 .wrapper .previewContent .previewInfo .textPlatform {
@@ -83,11 +85,17 @@
     margin-left: 550px;
 }
 
+.wrapper .wrapper_learn {
+    background-color: #fff;
+}
+
 .wrapper .learnContent {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 580px;
+    width: 1220px;
+    margin: auto;
     margin-bottom: 100px;
 }
 
@@ -100,6 +108,9 @@
 }
 
 .wrapper .learnContent .learnInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 484px;
     height: 500px;
 }
@@ -142,6 +153,7 @@
     justify-content: right;
     align-items: center;
     width: 1220px;
+    margin: auto;
     margin-bottom: 100px;
 }
 
@@ -184,12 +196,17 @@
     background-size: contain;
 }
 
+.wrapper .wrapper_progress {
+    background-color: #fff;
+}
+
 .wrapper .progressContent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 1220px;
-    margin-bottom: 100px;
+    height: 600px;
+    margin: auto;
 }
 
 .wrapper .progressContent .progressImg {
@@ -201,6 +218,9 @@
 }
 
 .wrapper .progressContent .progressInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 475px;
     height: 300px;
 }

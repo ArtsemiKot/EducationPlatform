@@ -1,0 +1,165 @@
+.wrapper {
+    width: 1220px;
+    margin: auto;
+}
+
+.wrapper .allcontent {
+    width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrapper .courses {
+    border-radius: 14px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wrapper .courses .hat {
+    background-image: url(./assets/fluent_hat-graduation.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+.wrapper .courses h3 {
+    color: var(--Primaty-Black, #000);
+    font: 400 26px "Dela Gothic One";
+}
+
+.wrapper .contentJS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 22.898px 45.796px -11.449px rgba(52, 41, 39, 0.08);
+    margin-bottom: 40px;
+}
+
+.wrapper .contentJS .imgJS {
+    background-image: url(./assets/imgJS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+
+.wrapper .contentJS .infoJS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 596px;
+    padding: 25px 25px;
+}
+
+
+.wrapper .contentJS .infoJS h2 {
+    color: #000;
+    font: 400 32px "Dela Gothic One";
+    margin-bottom: 20px;
+}
+
+.wrapper .contentJS .infoJS hr {
+    width: 540px;
+    border: 1.22px solid #e0e0e0;
+}
+
+.wrapper .contentJS .infoJS p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 500 16px Montserrat;
+}
+
+.wrapper .contentTS {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 22.898px 45.796px -11.449px rgba(52, 41, 39, 0.08);
+    margin-bottom: 40px;
+}
+
+.wrapper .contentTS .imgTS {
+    background-image: url(./assets/imgTS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+
+.wrapper .contentTS .infoTS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 596px;
+    padding: 25px 25px;
+}
+
+.wrapper .contentTS .infoTS h2 {
+    color: #000;
+    font: 400 32px "Dela Gothic One";
+    margin-bottom: 20px;
+}
+
+.wrapper .contentTS .infoTS hr {
+    width: 540px;
+    border: 1.22px solid #e0e0e0;
+}
+
+.wrapper .contentTS .infoTS p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 500 16px Montserrat;
+}
+
+.wrapper .contentPyt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 22.898px 45.796px -11.449px rgba(52, 41, 39, 0.08);
+    margin-bottom: 40px;
+}
+
+.wrapper .contentPyt .imgPyt {
+    background-image: url(./assets/imgP.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+
+.wrapper .contentPyt .infoPyt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 596px;
+    padding: 25px 25px;
+}
+
+
+.wrapper .contentPyt .infoPyt h2 {
+    color: #000;
+    font: 400 32px "Dela Gothic One";
+    margin-bottom: 20px;
+}
+
+.wrapper .contentPyt .infoPyt hr {
+    width: 540px;
+    border: 1.22px solid #e0e0e0;
+}
+
+.wrapper .contentPyt .infoPyt p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 500 16px Montserrat;
+}

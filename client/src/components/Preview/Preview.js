@@ -18,15 +18,16 @@ function Preview() {
                 <div className={style.previewImg}>
                 </div>
             </div>
-
-            <div className={style.learnContent}>
-                <div className={style.learnImg}></div>
-                <div className={style.learnInfo}>
-                    <h2>Learn a language in a playful way</h2>
-                    <p className={style.textLearning}>Make learning programming languages more fun with mini-games</p>
-                    <div className={style.icon}>
-                        <div className={style.ImgSneakers}></div>
-                        <div className={style.ImgSound}></div>
+            <div className={style.wrapper_learn}>
+                <div className={style.learnContent}>
+                    <div className={style.learnImg}></div>
+                    <div className={style.learnInfo}>
+                        <h2>Learn a language in a playful way</h2>
+                        <p className={style.textLearning}>Make learning programming languages more fun with mini-games</p>
+                        <div className={style.icon}>
+                            <div className={style.ImgSneakers}></div>
+                            <div className={style.ImgSound}></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -40,12 +41,14 @@ function Preview() {
                 <div className={style.knowledgeImg}></div>
             </div>
 
-            <div className={style.progressContent}>
-                <div className={style.progressImg}></div>
-                <div className={style.progressInfo}>
-                    <h2>Watch your progress every day</h2>
-                    <p className={style.textprogress}>Save statistics on your achievements and mistakes</p>
-                    <div className={style.btn_statistics}>Statistics →</div>
+            <div className={style.wrapper_progress}>
+                <div className={style.progressContent}>
+                    <div className={style.progressImg}></div>
+                    <div className={style.progressInfo}>
+                        <h2>Watch your progress every day</h2>
+                        <p className={style.textprogress}>Save statistics on your achievements and mistakes</p>
+                        <div className={style.btn_statistics}>Statistics →</div>
+                    </div>
                 </div>
             </div>
         </div>
