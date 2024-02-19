@@ -1,0 +1,64 @@
+.allcontent {
+    width: 946px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 22.898px 45.796px -11.449px rgba(52, 41, 39, 0.08);
+    margin-bottom: 40px;
+}
+
+.content .img1 {
+    background-image: url(./assets/imgJS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+.content .img2 {
+    background-image: url(./assets/imgTS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+.content .img3 {
+    background-image: url(./assets/imgP.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 337px;
+    height: 216px;
+    border-radius: 14px 0 0 14px;
+}
+
+.content .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 596px;
+    padding: 25px 25px;
+}
+
+.content .info h2 {
+    color: #000;
+    font: 400 32px "Dela Gothic One";
+    margin-bottom: 20px;
+}
+
+.content .info hr {
+    width: 540px;
+    border: 1.22px solid #e0e0e0;
+}
+
+.content .info p {
+    color: var(--Primaty-Grey-Dark, #757575);
+    font: 500 16px Montserrat;
+}
