@@ -34,7 +34,8 @@
     font: 400 20px Montserrat;
 }
 
-.wrapper .reg .btn {
+.wrapper .reg .btn a{
+    display: block;
     border-radius: 100px;
     background: var(--Primaty-Cyan-Dark, #2B788B);
     width: 110px;

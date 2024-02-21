@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Input from "../../components/Input/Input";
@@ -31,7 +32,7 @@ function RegPage() {
             inputType: 'password'
         },
     ]
-    
+
     return (
         <div>
             <Header></Header>
@@ -39,7 +40,7 @@ function RegPage() {
                 <div className={style.reg}>
                     <h1>Sign up</h1>
                     {inputArray.map((el) => <Input el={el}></Input>)}
-                    <button className={style.btn}>Sign up</button>
+                    <div className={style.btn}><Link to = {'/courses'}>Sign up</Link></div>
                 </div>
                 <div className={style.regImg}></div>
             </div>
