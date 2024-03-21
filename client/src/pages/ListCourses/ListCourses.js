@@ -2,7 +2,6 @@ import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import ItemCourse from "../../components/ItemCourse/ItemCourse";
 import style from './style.module.css'
-
 function ListCourses() {
     return (
         <div>
