@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/HomePage';
 import RegPage from './pages/RegPage/RegPage';
 import AuthPage from './pages/AuthPage/AuthPage';
 import ListCourses from './pages/ListCourses/ListCourses';
+import SingleCourse from './pages/SingleCourse/SingleCourse';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/reg' element = {<RegPage></RegPage>}></Route>
         <Route path='/auth' element = {<AuthPage></AuthPage>}></Route>
         <Route path='/courses' element = {<ListCourses></ListCourses>}></Route>
+        <Route path='/:id' element = {<SingleCourse></SingleCourse>}></Route>
       </Routes>
     </>
   );

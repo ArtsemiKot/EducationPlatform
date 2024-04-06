@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .singleCourse {
+        width: max-content;
+        border-radius: 10px;
+        background-color: #fff;
+        display: flex;
+        padding: 10px;
+
+        .img {
+            background-image: url(../SingleCourse/assets/image33.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 240px;
+            height: 160px;
+        }
+
+        .infoCourse {
+            width: 255px;
+
+            h1 {
+                font: 400 32px 'Dela Gothic One';
+            }
+
+            p {
+                font: 600 16px Montserrat;
+            }
+        }
+    }
+
+    .wrapperLessons {
+        width: max-content;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        padding: 10px;
+
+        .h2 {
+            font: 400 32px 'Dela Gothic One';
+        }
+
+        ol li {
+            list-style: none;
+            font: 600 16px Montserrat;
+        }
+    }
+
+}

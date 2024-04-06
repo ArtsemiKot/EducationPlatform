@@ -1,4 +1,5 @@
 import style from './style.module.css'
+import {Link} from 'react-router-dom'
 function ItemCourse() {
     const languages = [
         {
@@ -24,14 +25,16 @@ function ItemCourse() {
         <div>
             <div className={style.allcontent}>
                 {languages.map((el, index) =>
-                    <div key={index} className={style.content}>
-                        <div className={el.img}></div>
-                        <div className={style.info}>
-                            <h2>{el.course}</h2>
-                            <hr></hr>
-                            <p>{el.description}</p>
+                    <Link to={`/${el.id}`}>
+                        <div key={index} className={style.content}>
+                            <div className={el.img}></div>
+                            <div className={style.info}>
+                                <h2>{el.course}</h2>
+                                <hr></hr>
+                                <p>{el.description}</p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 )}
             </div>
         </div>
