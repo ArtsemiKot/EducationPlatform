@@ -2,32 +2,51 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: 100px;
 
-    .singleCourse {
+    .wrapperCourses {
         width: max-content;
         border-radius: 10px;
         background-color: #fff;
+        padding: 15px;
         display: flex;
-        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
 
-        .img {
-            background-image: url(../SingleCourse/assets/image33.svg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            width: 240px;
-            height: 160px;
+        .singleCourse {
+            display: flex;
+
+            .img {
+                background-image: url(../SingleCourse/assets/image33.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 240px;
+                height: 160px;
+            }
+
+            .infoCourse {
+                width: 255px;
+
+                h2 {
+                    font: 400 32px 'Dela Gothic One';
+                }
+
+                p {
+                    font: 600 16px Montserrat;
+                }
+            }
         }
 
-        .infoCourse {
-            width: 255px;
-
-            h1 {
-                font: 400 32px 'Dela Gothic One';
-            }
-
-            p {
-                font: 600 16px Montserrat;
-            }
+        button {
+            font: 600 16px "Montserrat";
+            display: block;
+            width: 143px;
+            height: 44px;
+            border-radius: 100px;
+            border-width: 0;
+            background-color: #c3dce3;
+            color: #2b788b;
         }
     }
 
@@ -37,16 +56,20 @@
         display: flex;
         flex-direction: column;
         border-radius: 10px;
-        padding: 10px;
+        padding: 15px;
 
-        .h2 {
+        h2 {
             font: 400 32px 'Dela Gothic One';
         }
 
-        ol li {
-            list-style: none;
-            font: 600 16px Montserrat;
+        ol {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            li {
+                list-style: none;
+                font: 600 16px Montserrat;
+            }
         }
     }
-
 }

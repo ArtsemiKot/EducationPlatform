@@ -1,8 +1,8 @@
 import { iCourse } from '../interfaces/interfaces';
-import {getAllCourseDB, getCourseByIdDB, createCourseDB, updateCourseDB,deleteCourseDB } from '../repository/courses.repository'
+import { getAllCourseDB, getCourseByIdDB, createCourseDB, updateCourseDB, deleteCourseDB } from '../repository/courses.repository'
 
-async function getAllCourse():Promise<iCourse[]> {
-  const data =await getAllCourseDB();
+async function getAllCourse(): Promise<iCourse[]> {
+  const data = await getAllCourseDB();
   if (!data.length) throw new Error('no data');
   return data;
 }
@@ -14,15 +14,15 @@ async function getCourseById(id: number): Promise<iCourse[]> {
   return data;
 }
 
-async function createCourse(course: string): Promise<iCourse[]> {
-  const data = await createCourseDB(course);
+async function createCourse(course: string, description: string): Promise<iCourse[]> {
+  const data = await createCourseDB(course, description);
   if (!data.length) throw new Error('no data');
 
   return data;
 }
 
-async function updateCourse(id: number, course: string): Promise<iCourse[]> {
-  const data = await updateCourseDB(id, course);
+async function updateCourse(id: number, course: string, description: string): Promise<iCourse[]> {
+  const data = await updateCourseDB(id, course, description);
   if (!data.length) throw new Error('no data');
 
   return data;
@@ -34,4 +34,4 @@ async function deleteCourse(id: number): Promise<iCourse[]> {
 
   return data;
 }
-export { getAllCourse, getCourseById, createCourse,updateCourse, deleteCourse };
+export { getAllCourse, getCourseById, createCourse, updateCourse, deleteCourse };

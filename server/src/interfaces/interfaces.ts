@@ -9,5 +9,11 @@ interface iUsers {
 interface iCourse {
   id: number;
   course: string;
+  description: string;
 }
-export { iUsers, iCourse };
+interface iLessons {
+  id: number;
+  title: string;
+  course_id:number;
+}
+export { iUsers, iCourse, iLessons };
